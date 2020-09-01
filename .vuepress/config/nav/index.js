@@ -1,6 +1,6 @@
 module.exports = [
   {
-    text: '主页',
+    text: 'Home',
     link: '/',
     icon: 'reco-home',
   },
@@ -14,8 +14,8 @@ module.exports = [
     icon: 'reco-message',
     items: [
       {
-        text: 'vuepress-reco',
-        link: '/docs/theme-reco/',
+        text: 'demo',
+        link: '/docs/demo/',
       },
     ],
   },

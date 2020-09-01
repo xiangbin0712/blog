@@ -9,7 +9,7 @@ module.exports = {
   blogConfig: {
     category: {
       location: 2, // 在导航栏菜单中所占的位置，默认2
-      text: '分类', // 默认文案
+      text: 'Category', // 默认文案
     },
     tag: {
       location: 3,
@@ -17,11 +17,17 @@ module.exports = {
     },
   },
   friendLink: [
+    // {
+    //   title: '午后南杂',
+    //   desc: 'Enjoy when you can, and endure when you must.',
+    //   email: '1156743527@qq.com',
+    //   link: 'https://www.recoluan.com',
+    // },
     {
-      title: '午后南杂',
-      desc: 'Enjoy when you can, and endure when you must.',
-      email: '1156743527@qq.com',
-      link: 'https://www.recoluan.com',
+      title: ' VuePress 中文网',
+      desc: 'Vue 驱动的静态网站生成器',
+      // email: '1156743527@qq.com',
+      link: 'https://www.vuepress.cn/',
     },
     {
       title: 'vuepress-theme-reco',

@@ -1,5 +1,6 @@
 const themeConfig = require('./config/themeConfig');
 const head = require('./config/head');
+const plugins = require('./config/plugins');
 module.exports = {
   title: 'Mime',
   description: 'mine の blog',
@@ -11,4 +12,5 @@ module.exports = {
   markdown: {
     lineNumbers: true,
   },
+  plugins,
 };
