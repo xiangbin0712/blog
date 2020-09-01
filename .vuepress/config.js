@@ -3,7 +3,8 @@ const head = require('./config/head');
 module.exports = {
   title: 'Mime',
   description: 'mine の blog',
-  dest: 'public',
+  dest: 'dist',
+  base: 'blog',
   head,
   theme: 'reco',
   themeConfig,
