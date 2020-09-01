@@ -4,7 +4,7 @@ const plugins = require('./config/plugins');
 module.exports = {
   title: 'Mime',
   description: 'mine の blog',
-  dest: 'dist',
+  dest: 'root', // vuepress 生成目录
   base: '/blog/',
   head,
   theme: 'reco',
